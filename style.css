@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    
+    
+}
+body {
+
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+ }
+
+h1 {
+    color: black
+}
+
+p{  
+    text-align: center;
+    margin-top: 15px;
+   color: white;
+   font-size: 20px;
+   -webkit-font-smoothing: antialiased;
+    
+}
+.col-1.btn{
+    background-color: blue;
+    color: red;
+    font-size: 20px;
+    
+}
+.planner p{
+    color: #222;
+}
+
+.lead {
+
+    text-shadow: 2px dashed rgb(35, 165,165);
+    
+
+}
+
+.plannerDiv{  
+    
+    border-radius: 25px;
+    box-shadow: 2px white;
+}
+
+
+
+#text8AM {
+
+    border-radius: 5px;
+} 
+#text9AM {
+
+    border-radius: 5px;
+} 
+#text10AM {
+
+    border-radius: 5px;
+} 
+#text11AM {
+
+    border-radius: 5px;
+} 
+#text12AM {
+
+    border-radius: 5px;
+} 
+#text1PM {
+
+    border-radius: 5px;
+} 
+#text2PM {
+
+    border-radius: 5px;
+} 
+#text3PM {
+
+    border-radius: 5px;
+} 
+#text4PM {
+
+    border-radius: 5px;
+} 
+#text5PM {
+
+    border-radius: 5px;
+} 
+
+
+
+textarea p {
+-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+box-shadow: inset 2px 2px 2px 0px #dddddd;
+
+
+}
+
+.bg-red {
+    background-color: #222;
+}
+.bg-green {
+
+    background-color: #222;
+    border: 3px dashed rgb(35,165,165);
+}
+.bg-green:hover{
+    border: 3px dashed red;
+}
+
+.bg-gray {
+    background-color: #222;
+}
+/* 
+These rules take effect when the browser's width
+  is either 767px or less. */
+
+@media screen and (max-width: 767px) {       
+
+     p{
+        font-size: smaller;
+    } 
+
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 400px or less.
+*/
+@media screen and (max-width: 400px) {
+
+    .jumbotron{
+        height: 300px;
+        
+    }
+   
+    .hourC{
+        margin-right: 0px;
+
+    }
+    
+    .spanBttn{
+        border-radius: 25px;
+    }
+   
+}
+
