@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-:root{
+
     
     
-}
+
 body {
 
     background-color: #222;
-    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
  }
-
+ 
+.jumbotron{
+    background-color: rgb(35, 165,165);
+    border: 3px solid green;
+}
 h1 {
-    color: black
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+
 }
 
 p{  
     text-align: center;
     margin-top: 15px;
-   color: white;
+   color: #777;
    font-size: 20px;
    -webkit-font-smoothing: antialiased;
     
 }
 .col-1.btn{
-    background-color: blue;
-    color: red;
+    background-color: #222;
+    color:white;
     font-size: 20px;
+    border-color: rgb(35, 165,165);
     
 }
+
 .planner p{
     color: #222;
 }
@@ -43,7 +53,9 @@ p{
     border-radius: 25px;
     box-shadow: 2px white;
 }
-
+.container{
+    color: green;
+}
 
 
 #text8AM {
@@ -52,47 +64,50 @@ p{
 } 
 #text9AM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text10AM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text11AM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text12AM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text1PM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text2PM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text3PM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text4PM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 #text5PM {
 
-    border-radius: 5px;
+    border-radius: 20px;
 } 
 
-
+textarea:hover{
+    background-color: rgb(35, 165,165);
+    transition: 0.3s;
+}
 
 textarea p {
 -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
--moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
-box-shadow: inset 2px 2px 2px 0px #dddddd;
+-moz-box-shadow: inset 2px 2px 2px 0px #222;
+box-shadow: inset 2px 2px 2px 0px #222;
 
 
 }
@@ -103,11 +118,9 @@ box-shadow: inset 2px 2px 2px 0px #dddddd;
 .bg-green {
 
     background-color: #222;
-    border: 3px dashed rgb(35,165,165);
+
 }
-.bg-green:hover{
-    border: 3px dashed red;
-}
+
 
 .bg-gray {
     background-color: #222;
